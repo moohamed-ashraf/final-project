@@ -1,0 +1,33 @@
+.navmenu img {
+    width:60px;
+    height: 60px;
+    margin-left: 67px;
+}
+.nav-links{
+    display: flex;
+    justify-content: space-around;
+    width:30%;
+    list-style: none;
+    align-items:center;
+    margin-right: 66px;
+}
+.navmenu{
+    display: flex;
+    justify-content: space-between;
+    padding:15px;
+    align-items:center;
+}
+.nav-links a{
+    text-decoration: none;
+    color:#484551
+}
+
+.nav-links a:hover {
+    color:#4fa3db;
+    text-decoration: underline;
+}
+header {
+    position: sticky;
+    top:0;
+    background-color: rgba(255, 255, 255, 0.9);
+}
